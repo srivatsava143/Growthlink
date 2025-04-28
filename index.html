@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic</title>
+</head>
+<style>
+    
+    #img1{
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+    #img2{
+        border-radius:50%;
+    }
+    button:hover{
+        background-color: gray;
+        text-emphasis-color: black solid;
+        text-align: center;
+    }
+    .container{
+        width:500px;
+        height: 500px;
+        border: black solid;
+        box-shadow: 10%;
+        margin:auto;
+    }
+    .but1{
+        display:inline;
+       padding-left: 10%;
+    }
+    .but2{
+         margin: auto;
+        float: right;
+        padding-left: 10%;
+    }
+</style>
+<body>
+  
+   
+
+    <div class="container">
+    <div class="but1">
+    <button onclick="document.getElementById('img1').src='sriha2.png' ">
+        <strong> click to change the image</strong> 
+     </button>
+     <img id="img1" src="insta.png" alt="_emledu">
+    </div>
+    <div class="but2">
+    <button onclick="document.getElementById('img2').src='insta.png'">
+        revers 
+    </button>
+    <img id="img2" src="sriha2.png" alt="_nothing">
+    </div>
+    <div class="tex">
+        <h1><i>how to convert text using javascript</i></h1>
+        <p id="hw">hello world !..</p>
+        <button onclick='document.getElementById("hw").innerHTML="this srivatsava"'>convert</button>
+        <div class="rev">
+            <p id="go">applying the color and changing the font size </p>
+            <button onclick="document.getElementById('go').style.color='blue'">previous</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

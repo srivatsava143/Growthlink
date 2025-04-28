@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<style>
+    .container{
+        width: 100%;
+        height: 450px;
+        background-color: beige;
+    }
+#tit{
+    transition: 3s,6s;
+}
+#tit:hover{
+    font-size: large;
+    background-color: rgb(121, 184, 163);
+}
+.team{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+  
+    float: left;
+    padding-left: 30px;
+    transition: 5s,4s;
+}
+.team:hover{
+    background-color: aqua;
+}
+.aim{
+    margin-left: 10px;
+    float: left;
+    width: 300px;
+    height: 200px;
+   
+    padding-left: 30px;
+    transition: 5s,4s;
+   
+}
+.aim:hover {
+    background-color: brown;
+}
+.project1{
+    margin: auto;
+    padding-left:30px ;
+}
+button{
+    float: inline-end;
+}
+.video{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+    transition: 3s,5s;
+}
+#vid{
+    width: 100%;
+    height: 100%;
+}
+.video:hover{
+    width: 600px;
+    height:auto;
+}
+
+.team1{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    padding-left: 30px;
+    transition: 5s,4s;
+    float: left;
+}
+.team1:hover{
+    background-color: aqua;
+}
+.aim1{
+    margin-left: 10px;
+    float: left;
+    width: 300px;
+    height: auto;
+   
+    padding-left: 30px;
+    transition: 5s,4s;
+   
+}
+.aim1:hover {
+    background-color: brown;
+}
+.project2{
+    margin: auto;
+    padding-left:30px ;
+    width: 100%;
+    height: 450px;
+    background-color: cadetblue;
+}
+button{
+    float: inline-end;
+}
+.video1{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+    transition: 3s,5s;
+}
+#vid1{
+    width: 100%;
+    height: 100%;
+}
+.video1:hover{
+    width: 600px;
+    height:auto;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="project1">
+            <h6 id="tit"><strong><i>AUTOMATIC DETECTION OF STUDENT ENGAGEMENT DURING ONLINE CLASS :</i></strong></h6>
+            <div class="team">
+                <i>teammates and roles : </i>
+                <p id="r1"><i>Sri Sai Raj</i></p>
+                <button onclick="document.getElementById('r1').innerHTML='backend work'"><i>role</i></button>
+                
+                <p id="r2"><i>Yeshwant kumar</i></p>
+                <button onclick="document.getElementById('r2').innerHTML='python code'"><i>role</i></button>
+                
+                <p id="r3"><i>Tharun</i></p>
+                <button onclick="document.getElementById('r3').innerHTML='ppt,content collector'"><i>role</i></button>
+               
+                <p id="r4"><i>Srivatsava</i></p>
+                <button onclick="document.getElementById('r4').innerHTML='documation,frontend work,python code'"><i>role</i></button>
+            </div>
+           <br>
+            <div class="aim">
+                <i>motive :</i>
+                <p>The global health crisis led to a shift in education to virtual learning environments, with videoconferencing tools enhancing the learning experience. 
+                   An Automatic Student Engagement Monitoring System, capturing live facial data, aims to enhance online learning effectiveness by assessing student attentiveness.</p>
+            </div>
+            <br>
+            <div class="video">
+                <video id="vid" src="vide.mp4" controls>
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- second project -->
+    <div class="project2">
+        <h6 id="tit"><strong><i>GROSS DOMESTIC PRODUCT ANALYSIS :</i></strong></h6>
+        <div class="team1">
+            <i>teammates and roles : </i>
+            <p id="rr1"><i>Subba reddy venkat</i></p>
+            <button onclick="document.getElementById('rr1').innerHTML='content creator'"><i>role</i></button>
+            
+            <p id="rr2"><i>Shiva kumar</i></p>
+            <button onclick="document.getElementById('rr2').innerHTML='ppt'"><i>role</i></button>
+            
+            <p id="rr3"><i>Srivatsava</i></p>
+            <button onclick="document.getElementById('rr3').innerHTML='documation,machine learning, power bi'"><i>role</i></button>
+        </div>
+       <br>
+        <div class="aim1">
+            <i>motive :</i>
+            <p>In Power bi tool this analysis examines the Gross Domestic Product (GDP) of different countries and identifies trends and patterns in their economic growth over time. 
+                The project utilizes data from various sources to provide a comprehensive overview of the current state of the global economy, including factors such as GDP per capita, inflation rates, and trade balances. 
+                The analysis aims to provide insights into the factors that drive economic growth and to identify the key challenges facing countries in their efforts to achieve sustained economic development. 
+                The findings of the analysis can be used to inform policy decisions and to help countries develop strategies for improving their economic performance.</p>
+        </div>
+        <br>
+        <div class="video1">
+            <video id="vid1" src="project2.mp4" controls>
+            </video>
+        </div>
+    </div>
+    
+</body>
+</html>
